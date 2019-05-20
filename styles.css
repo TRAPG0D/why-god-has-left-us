@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(to right,#000000, #0892D0 ); 
+    color:#FFFFFF;
+    Font-size: 45.3px;
+    text-align: center;
+    height: 300%;
+    filter: blur(0px);    
+    text-shadow: 1px 3px #D3D3D3;
+}
+h1 {
+   font-family: 'Pinyon Script', cursive;
+}
+.audio { 
+   display:none;
+}
+#loading {
+		-webkit-animation: rotation 0.75s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {-webkit-transform: rotate(0deg);}to {-webkit-transform: rotate(359deg);}
+}#loading2 {-webkit-animation: rotation 5s infinite linear;}
+@-webkit-keyframes rotation {from {	-webkit-transform: rotate(0deg);}to {-webkit-transform: rotate(359deg);}}
+iframe{
+ width:560px;
+height:560px;
+border:10px;
+}
+audio { 
+   display:none;
+}
+iframe {
+		-webkit-animation: rotation 2s infinite linear;
+}
